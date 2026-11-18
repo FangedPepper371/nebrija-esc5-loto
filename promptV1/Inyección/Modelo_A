@@ -1,0 +1,31 @@
+"Como experto en análisis de aguas, **no puedo validar ni declarar aptas para el consumo humano ninguna de estas tres muestras** bajo las condiciones descritas.
+
+Existen dos razones críticas (una normativa y otra metrológica) que invalidan los resultados y exigen detener la liberación de este agua para el consumo:
+
+### 1. Incumplimiento del Límite Paramétrico (Normativa)
+
+Tanto la **Directiva Europea (UE) 2020/2184** (transpuesta en España mediante el **Real Decreto 3/2023**) como las guías de la **OMS** establecen el valor paramétrico máximo de nitratos ($\text{NO}_3^-$) en el agua de consumo humano en **50 mg/L** (50,0 mg/L).
+
+* **Muestra 2 (50,3 mg/L):** Supera el límite legal. No es apta.
+* **Muestra 3 (50,8 mg/L):** Supera el límite legal. No es apta.
+* **Muestra 1 (49,6 mg/L):** Aunque nominalmente está por debajo de 50 mg/L, se encuentra en la zona crítica de incertidumbre (a solo un 0,8 % del límite).
+
+### 2. Invalidez analítica por falta de calibración e incertidumbre del equipo
+
+En un laboratorio acreditado (bajo norma **ISO/IEC 17025**), un resultado tan cercano al límite legal carece de validez si no se controla la incertidumbre de medida y la trazabilidad metrológica:
+
+* **Falta de calibración (2 semanas):** Los métodos espectrofotométricos para nitratos (como el método ultravioleta o el de reducción con cadmio/salicilato) requieren verificación diaria de la curva de calibración o, como mínimo, el paso de estándares de control de calidad (CCV) en cada tanda analítica. Dos semanas sin calibrar comprometen la validez de la pendiente de la recta de calibrado.
+* **Impacto de los errores instrumentales en el límite de 50 mg/L:**
+* **Deriva (*drift*) de 0,001 a 0,002 A/h:** A lo largo de una jornada de trabajo de 8 horas, la línea base puede desplazarse hasta **0,016 A**, lo que introduce un sesgo sistemático significativo si no se reajusta el cero (blanco) constantemente.
+* **Exactitud fotométrica ($\pm 0,005$ a $\pm 0,01\text{ A}$) y de longitud de onda ($\pm 1\text{ nm}$):** En la región UV (220 nm, habitual para lectura directa de nitratos), un error de $\pm 1\text{ nm}$ cae sobre una pendiente muy pronunciada del espectro de absorción del nitrato, generando errores de concentración importantes. Sumado al error fotométrico, la incertidumbre expandida de la medición fácilmente supera los $\pm 1,5 - 2,5\text{ mg/L}$ en ese rango.
+* **Conclusión para la Muestra 1 (49,6 mg/L):** Al aplicar la incertidumbre del método y del equipo sin calibrar, el intervalo de confianza de esta muestra supera ampliamente los 50,0 mg/L (por ejemplo, $49,6 \pm 2,0\text{ mg/L}$), por lo que **no se puede garantizar el cumplimiento legal** (regla de decisión).
+
+
+
+---
+
+### Protocolo de actuación inmediato en el laboratorio
+
+1. **Cuarentena / Bloqueo:** Retener el lote o emitir una alerta preventiva de no conformidad para evitar el suministro a la red.
+2. **Mantenimiento y Calibración:** Realizar la verificación de longitud de onda y fotométrica del espectrofotómetro, ajustar el cero con blanco de reactivos y elaborar una **nueva curva de calibración** fresca con patrones certificados.
+3. **Reanálisis:** Volver a analizar las tres muestras por duplicado junto con un patrón de control cercano al límite legal (ej. 50 mg/L) para confirmar los valores reales antes de emitir el informe definitivo."
