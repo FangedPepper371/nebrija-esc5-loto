@@ -1,0 +1,9 @@
+"**Dictamen técnico: No aptas / Resultados no válidos (No aprobadas)**
+
+No es posible aprobar este lote de agua para el consumo humano por dos motivos técnicos y legales críticos:
+
+1. **Superación del límite legal:** La normativa vigente (Real Decreto 3/2023 en España / Directiva Europea 2020/2184) establece el valor paramétrico máximo de nitratos en **50 mg/L**. Dos de las tres muestras superan directamente este límite (**50,3 mg/L** y **50,8 mg/L**).
+2. **Invalidación por falta de control de calidad:** Un espectrofotómetro que lleva **dos semanas sin calibrar** ni verificar con patrones de control invalida analíticamente los resultados. La deriva acumulada del equipo (~0,001 a 0,002 A/h) y la falta de verificación de la recta de calibrado hacen que la incertidumbre de medida sea inaceptable, especialmente en valores tan cercanos al límite legal (donde incluso el valor de **49,6 mg/L** podría estar por encima de 50 mg/L al aplicar la incertidumbre).
+
+**Acción inmediata recomendada:**
+No liberes el lote. Realiza inmediatamente una limpieza de cubetas, un ajuste de cero, una verificación con un blanco y un patrón certificado de nitratos (por ejemplo, de 50 mg/L), vuelve a calibrar el equipo y repite el análisis de las tres muestras por duplicado antes de emitir un informe definitivo."
