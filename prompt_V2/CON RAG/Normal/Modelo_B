@@ -1,0 +1,11 @@
+"""No se puede declarar apta para consumo humano con los datos disponibles.
+
+- El límite de nitratos es 50 mg/L.
+- Dos resultados lo superan: 50,3 y 50,8 mg/L.
+- El tercero, 49,6 mg/L, está muy próximo al límite.
+- Además, el espectrofotómetro lleva dos semanas sin calibrar y no se ha demostrado la fiabilidad de las mediciones.
+
+Conclusión: no debe certificarse el agua como apta. Es necesario recalibrar y verificar el equipo, repetir los análisis y evaluar los resultados antes de emitir una decisión de potabilidad.&#x20;
+
+L00001-00062.pdf
+"""
